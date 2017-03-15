@@ -27,3 +27,7 @@
 *.exe
 *.out
 *.app
+
+
+# Some directories like those for testing
+/test/*
