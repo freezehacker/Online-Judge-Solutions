@@ -7,7 +7,7 @@ using namespace std;
 const int MAX_ADDRESS_NUM = 1E5;
 const int CASE_NUM = 1;
 namespace my {
-int next[MAX_ADDRESS_NUM];  // Only store the address of every node.
+int next[MAX_ADDRESS_NUM];  // Store the next node's address.
 }
 bool existed[MAX_ADDRESS_NUM];
 
