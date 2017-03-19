@@ -11,8 +11,8 @@ using std::ofstream;
 
 int main(int argc, const char* argv[]) {
     
-    ifstream cin("in.txt");
-    ofstream cout("out.txt");
+/*    ifstream cin("in.txt");
+    ofstream cout("out.txt");*/
 
     string str;
     cin >> str;
