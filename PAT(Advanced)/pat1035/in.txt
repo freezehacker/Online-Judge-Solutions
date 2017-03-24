@@ -1,0 +1,12 @@
+3
+Team000002 Rlsp0dfa
+Team000003 perfectpwd
+Team000001 R1spOdfa
+
+1
+team110 abcdefg332
+
+2
+team110 abcdefg222
+team220 abcdefg333
+

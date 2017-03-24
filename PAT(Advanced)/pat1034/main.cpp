@@ -34,7 +34,7 @@ void dfs(const string &person) {
 
 
 int main() {
-    ifstream cin("in.txt");
+    //ifstream cin("in.txt");
 
     cin >> numOfRelation >> threshold;
     
