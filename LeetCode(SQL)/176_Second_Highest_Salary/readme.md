@@ -7,9 +7,15 @@
 有两种方法：
 * 排序之后取第2个
 ```sql
+# 如果可以重复
 SELECT `Salary` 
 FROM `Employee` 
 ORDER BY `Salary` DESC  
+LIMIT 1 OFFSET 1;
+
+# 如果重复的当作一个
+SELECT `Salary` 
+FROM (SELECT DISTINCT(`Salary`) FROM `Employee` ORDER BY `Salary` DESC) AS `Tmp` 
 LIMIT 1 OFFSET 1;
 ```
 但是，不存在的时候，会返回empty set，也就是空。不满足题意。  
