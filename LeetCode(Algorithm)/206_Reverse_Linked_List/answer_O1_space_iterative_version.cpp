@@ -1,0 +1,32 @@
+// 9ms
+// space: O(1)!!
+// time: O(n)
+
+#include <iostream>
+using namespace std;
+
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
+ 
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head) {
+        ListNode *next, *last = NULL;
+        while ( head ) {
+            next = head->next;
+            head->next = last;
+            last = head;
+            head = next;
+        }
+        return last;
+    }
+};
+
+
+int main(int argc, char const *argv[]) {
+    
+    return 0;
+}
